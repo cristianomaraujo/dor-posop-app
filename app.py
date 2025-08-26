@@ -83,7 +83,7 @@ with st.form("form"):
     sexo = st.selectbox("Sexo", ["Feminino", "Masculino"])
     reducao = st.selectbox("Redução oclusal", ["Não", "Sim"])
     fotobio = st.selectbox("Fotobiomodulação", ["Não", "Sim"])
-    aine = st.selectbox("Uso de AINEs (apenas 24h)", ["Não", "Sim"])
+    aine = st.selectbox("Uso de AINEs", ["Não", "Sim"])
     submit = st.form_submit_button("Calcular")
 
 # ----------------------------
